@@ -1,3 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15vh;
+}
+
 .name {
   display: flex;
   justify-content: center;
@@ -10,25 +16,94 @@
   height: auto;
 }
 
+.heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: var(--white);
+  font-size: 6vh;
+  align-items: center;
+  justify-self: baseline;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vh;
+  margin-top: -10vh;
+}
+
 .project-card {
   background-color: var(--white);
   height: 45vh;
-  max-width: 20vw;
+  min-width: 20vw;
+  width: 20vw;
   color: var(--bg);
   border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10vh;
+  margin-top: -10vh;
 }
 
 .skills {
-  display: flex;
-  gap: 5vh;
-  overflow-x: auto;
-  scroll-behavior: smooth;
+  background-color: var(--white);
+  max-width: 30vw;
+  width: 20vw;
+  height: 30vh;
+  border-radius: 15px;
+  opacity: 0.6;
 }
 
+@media (max-width: 768px) {
 
-.skill-card {
-  height: 14vh;
-  width: 14vh;
-  background-color: var(--white);
-  color: var(--bg);
+  .project-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 85vw !important;
+    min-width: unset !important;
+    max-width: 380px;
+    height: 50vh;
+  }
+
+  .skill-container {
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .skills {
+    width: 90vw !important;
+    min-width: unset !important;
+    max-width: 380px;
+    height: 30vh;
+  }
+
+  .paper {
+    z-index: 1;
+  }
+
+  .about-container {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-para p {
+    color: var(--bg);
+    text-align: center;
+  }
 }
