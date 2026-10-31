@@ -11,59 +11,46 @@ html {
 }
 
 .nav {
-  position: sticky;
+  position: fixed;
   z-index: 1000;
-  top: 0;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-900%, -50%);
+
   color: var(--white);
-  display: flex;
-  align-items: center;
   background-color: #ffffff4d;
-  font-size: 2rem;
-  gap: 3vh;
-  padding: 3rem 3rem;
-  height: 10vh;
-  width: 160vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+
+  width: 10vh;
+  height: 20vw;
   border-radius: 200px;
-  align-self: center;
-  top: 5vh;
 }
 
 .nav ul {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  gap: 2rem;
-}
-
-.nav li h1 {
-  font-size: 3rem;
-}
-
-.nav li a {
-  display: flex;
-  align-items: baseline;
-}
-
-
-.nav img {
-  transform: scale(0.75);
-  height: auto;
+  width: 50px;
+  gap: 4vh;
 }
 
 .name {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   margin: 15vh;
 }
 
 .name img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  margin-left: 20vh;
 }
 
 .heading {
@@ -93,6 +80,18 @@ html {
   color: var(--bg);
   border-radius: 15px;
   flex-shrink: 0;
+  align-content: flex-end;
+  overflow: hidden;
+}
+
+.project-card img {
+  scale: 98%;
+  border-radius: 15px;
+}
+
+.project-card:hover {
+  scale: 120%;
+  overflow: visible;
 }
 
 .skill-container {
@@ -112,6 +111,10 @@ html {
   border-radius: 15px;
 }
 
+.skills:hover {
+  scale: 130%;
+}
+
 @media (max-width: 768px) {
 
   .project-container {
@@ -125,6 +128,10 @@ html {
     min-width: unset !important;
     max-width: 380px;
     height: 50vh;
+  }
+
+  .project-card:hover {
+    scale: 110%;
   }
 
   .skill-container {

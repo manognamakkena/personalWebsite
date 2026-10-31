@@ -1,13 +1,16 @@
 import '../App.css';
 
-export default function ProjectCard() {
+export default function ProjectCard({ projectName, projectDescription, projectImage }) {
     return (
         <div className="project-card">
             <div className="project-img">
             </div>
             <div className="project-info">
-                <h3 className="project-name">Project 1</h3>
-                <p className='project-lines'>rjgnskrgn</p>
+                <img src={projectImage}></img>
+                <br />
+                <h2>{projectName}</h2>
+                <br />
+                <p>{projectDescription}</p>
             </div>
         </div>
     );

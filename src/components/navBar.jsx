@@ -6,17 +6,17 @@ export default function NavBar() {
             <ul>
                 <li>
                     <a href="#project">
-                        <h1>P</h1><p> rojects</p>
+                        <img src="src/assets/folder.png" data-active="src/assets/folderActive.png" />
                     </a>
                 </li>
                 <li>
                     <a href="#tools">
-                        <h1>T&nbsp;</h1><p>ools</p>
+                        <img src="src/assets/tool.png" />
                     </a>
                 </li>
                 <li>
                     <a href="#about">
-                        <h1>A</h1><p>bout</p>
+                        <img src="src/assets/about.png" />
                     </a>
                 </li>
             </ul>
