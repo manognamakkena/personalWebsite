@@ -10,6 +10,11 @@ html {
   gap: 15vh;
 }
 
+.headingSans {
+  font-size: 1.25rem;
+
+}
+
 .nav {
   position: fixed;
   z-index: 1000;
@@ -70,9 +75,11 @@ html {
   flex-wrap: wrap;
   gap: 5vh;
   margin-top: -10vh;
+
 }
 
 .project-card {
+  position: relative;
   background-color: var(--white);
   height: 45vh;
   min-width: 20vw;
@@ -82,6 +89,7 @@ html {
   flex-shrink: 0;
   align-content: flex-end;
   overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .project-card img {

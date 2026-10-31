@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 
 :root {
   --white: #e8e4ec;
   --bg: #0e0d0e;
 
-  --sans: 'Luxurious Roman', serif;
+  --sans: "Luxurious Roman", serif;
   --heading: 'Monsieur La Doulaise', cursive;
 
   letter-spacing: 0.10vh;
   color: var(--text);
   background: var(--bg);
-  text-rendering: optimizeLegibility;
 
   @media (max-width: 1024px) {
     font-size: 16px;
@@ -48,4 +48,5 @@ h2 {
 
 body {
   font-size: 2vh;
+  font-family: var(--sans);
 }

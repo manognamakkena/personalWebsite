@@ -17,14 +17,14 @@ function App() {
 
         <div id='project' className='heading'><h1>P&nbsp;&nbsp;</h1><p> rojects</p></div>
         <div className='project-container'>
-          <ProjectCard projectName="mikroSnap" projectDescription="blah blah blah blah blah blah blah" projectImage={"./src/assets/mikroSnap.png"} />
-          <ProjectCard projectName="mikroSnap" projectDescription="blah blah blah blah blah blah blah" projectImage="./src/assets/pomodoro.png" />
-          <ProjectCard projectName="mikroSnap" projectDescription="blah blah blah blah blah blah blah" />
+          <ProjectCard projectName="mikroSnap" projectDescription="a website that allows you take retro-  style photobooth pictures" projectImage={"./src/assets/mikroSnap.png"} />
+          <ProjectCard projectName="pomodoro" projectDescription="a winter-themed pomodoro timer to help you focus" projectImage="./src/assets/pomodoro.png" />
+          <ProjectCard projectName="" projectDescription="coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon" />
         </div>
 
         <div id='tools' className='heading'><h1>T&nbsp;</h1><p>ools</p></div>
         <div className='skill-container'>
-          <Skills type="Design" skill="photoshop" />
+          <Skills type="Design" skill="-photoshop\n-illustrator" />
           <Skills type="Software" skill="html" />
         </div>
 
