@@ -1,6 +1,6 @@
 #Personal Website
 
-This is my attempt at creating a website using vite, react and js. This project is also my first ever react website. It goes over a a projects, skills, and and short about-me. I hope to make a cooler portfolio soon!
+This is my attempt at creating a website using vite, react and js. This project is also my first ever react website. It goes over projects, skills, and and short about-me. I hope to make a cooler portfolio soon!
 
 
 AI Usage: Minimal AI has been used to debug. 
