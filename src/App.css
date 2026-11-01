@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+
 }
 
 .main {
@@ -159,6 +161,22 @@ html {
   font-size: 3vh;
   line-height: 4vh;
   margin-top: -5vh;
+}
+
+.contact img {
+  scale: 10%;
+}
+
+.contact {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-top: 7vh;
+  align-self: center;
+  gap: 1px;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
 }
 
 @media (max-width: 768px) {

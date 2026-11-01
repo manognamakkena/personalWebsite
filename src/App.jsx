@@ -2,8 +2,10 @@ import { useState } from 'react'
 import ProjectCard from './components/projectCard'
 import Skills from './components/skills'
 import Name from './assets/name.png'
-import Paper from './assets/paper.png'
 import NavBar from './components/navBar'
+import Mail from './assets/mail.png'
+import Linkedin from './assets/linkedin.png'
+import Slack from './assets/slackLogo.png'
 
 function App() {
 
@@ -38,9 +40,11 @@ function App() {
               say hi through below contact options (●'◡'●)
             </p>
           </div>
-        </div>
-
-        <div className='contact'>
+          <div className='contact'>
+            <a href="mailto:manogna.makkena09@gmail.com" target="_blank"><img src={Mail} /></a>
+            <a href="https://www.linkedin.com/in/manogna-makkena" target="_blank"><img src={Linkedin} /></a>
+            <a href="https://hackclub.enterprise.slack.com/team/U0AAWJ33D63" target="_blank"><img src={Slack} /></a>
+          </div>
         </div>
       </div>
     </>
