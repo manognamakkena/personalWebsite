@@ -1,3 +1,15 @@
+#Personal Website
+
+This is my attempt at creating a website using vite, react and js. This project is also my first ever react website. It goes over a a projects, skills, and and short about-me. I hope to make a cooler portfolio soon!
+
+
+AI Usage: Minimal AI has been used to debug. 
+Credits: All the images seen are made by me :)
+
+I hope to use a combination of react and tailwind css in my next project. 
+
+-------------------------------------------------------------------------------------------------------------
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
