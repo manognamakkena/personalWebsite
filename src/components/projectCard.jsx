@@ -9,7 +9,7 @@ export default function ProjectCard({ projectName, projectDescription, projectIm
                 <img src={projectImage}></img>
                 <br />
                 <p className='headingSans'>{projectName}</p>
-                <p>{projectDescription}</p>
+                <p className="project-description">{projectDescription}</p>
             </div>
         </div>
     );

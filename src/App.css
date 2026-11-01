@@ -97,6 +97,10 @@ html {
   border-radius: 15px;
 }
 
+.project-description {
+  padding: 0rem 1rem;
+}
+
 .project-card:hover {
   scale: 120%;
   overflow: visible;
@@ -109,6 +113,12 @@ html {
   justify-content: center;
   gap: 10vh;
   margin-top: -10vh;
+  padding: 0rem 1rem;
+}
+
+.skill-items {
+  white-space: pre-line;
+  padding: 0.5rem 1rem;
 }
 
 .skills {
@@ -121,6 +131,34 @@ html {
 
 .skills:hover {
   scale: 130%;
+}
+
+.about-container {
+  background-image: url('./assets/paper.png');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+  margin-top: -10vh;
+}
+
+.about-para p {
+  position: absolute;
+  color: var(--bg);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 3vh;
+  line-height: 4vh;
+  margin-top: -5vh;
 }
 
 @media (max-width: 768px) {
@@ -138,6 +176,10 @@ html {
     height: 50vh;
   }
 
+  .project-description {
+    padding: 1rem;
+  }
+
   .project-card:hover {
     scale: 110%;
   }
@@ -153,21 +195,5 @@ html {
     min-width: unset !important;
     max-width: 380px;
     height: 30vh;
-  }
-
-  .paper {
-    z-index: 1;
-  }
-
-  .about-container {
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-para p {
-    color: var(--bg);
-    text-align: center;
   }
 }
