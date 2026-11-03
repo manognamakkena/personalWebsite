@@ -6,6 +6,9 @@ import NavBar from './components/navBar'
 import Mail from './src/assets/mail.png'
 import Linkedin from './src//assets/linkedin.png'
 import Slack from './src/assets/slackLogo.png'
+import MikroSnap from './src/assets/mikroSnap.png'
+import Pomodoro from './src/assets/pomodoro.png'
+
 
 function App() {
 
@@ -19,8 +22,8 @@ function App() {
 
         <div id='project' className='heading'><h1>P&nbsp;&nbsp;</h1><p> rojects</p></div>
         <div className='project-container'>
-          <ProjectCard projectName="mikroSnap" projectDescription="a website that allows you take retro-style photobooth pictures" projectImage={"./src/assets/mikroSnap.png"} />
-          <ProjectCard projectName="pomodoro" projectDescription="a winter-themed pomodoro timer to help you focus" projectImage="./src/assets/pomodoro.png" />
+          <ProjectCard projectName="mikroSnap" projectDescription="a website that allows you take retro-style photobooth pictures" projectImage={MikroSnap} />
+          <ProjectCard projectName="pomodoro" projectDescription="a winter-themed pomodoro timer to help you focus" projectImage={Pomodoro} />
           <ProjectCard projectName="" projectDescription="coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon coming soon" />
         </div>
 

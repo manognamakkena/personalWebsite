@@ -1,4 +1,7 @@
-import Butterfly from '../assets/butterfly.png'
+import Folder from 'src/assets/folder.png'
+import Tools from 'src/assets/tool.png'
+import About from 'src/assets/about.png'
+
 
 export default function NavBar() {
     return (
@@ -6,17 +9,17 @@ export default function NavBar() {
             <ul>
                 <li>
                     <a href="#project">
-                        <img src="src/assets/folder.png" data-active="src/assets/folderActive.png" />
+                        <img src={Folder} />
                     </a>
                 </li>
                 <li>
                     <a href="#tools">
-                        <img src="src/assets/tool.png" />
+                        <img src={Tools} />
                     </a>
                 </li>
                 <li>
                     <a href="#about">
-                        <img src="src/assets/about.png" />
+                        <img src={About} />
                     </a>
                 </li>
             </ul>
