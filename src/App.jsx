@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import ProjectCard from './components/projectCard'
-import Skills from './components/skills'
-import Name from './assets/name.png'
-import NavBar from './components/navBar'
-import Mail from './assets/mail.png'
-import Linkedin from './assets/linkedin.png'
-import Slack from './assets/slackLogo.png'
+import ProjectCard from '/components/projectCard'
+import Skills from '/components/skills'
+import Name from '/assets/name.png'
+import NavBar from '/components/navBar'
+import Mail from '/assets/mail.png'
+import Linkedin from '/assets/linkedin.png'
+import Slack from '/assets/slackLogo.png'
 
 function App() {
 
