@@ -136,7 +136,7 @@ body {
 }
 
 .about-container {
-  background-image: url('/assets/paper.png');
+  background-image: url('./assets/paper.png');
   position: relative;
   background-size: cover;
   background-position: center;
