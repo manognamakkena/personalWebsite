@@ -1,6 +1,6 @@
-import Folder from 'src/assets/folder.png'
-import Tools from 'src/assets/tool.png'
-import About from 'src/assets/about.png'
+import Folder from './src/assets/folder.png'
+import Tools from './src/assets/tool.png'
+import About from './src/assets/about.png'
 
 
 export default function NavBar() {
